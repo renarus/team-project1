@@ -1,3 +1,64 @@
-h2{
-    color: red;
-}
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Slab:wght@700&family=Roboto:wght@100;300;400;500;700;900&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Slab:wght@700&family=Roboto:wght@100;300;400;500;700;900&display=swap'); 
+ 
+*{ 
+    padding: 0; 
+} 
+body{ 
+    width: 1200px; 
+} 
+.section-2{ 
+    padding-left: 100px; 
+} 
+.about{ 
+    display: flex; 
+    justify-content: space-between; 
+    width: 75%; 
+    padding-bottom: 150px; 
+    padding-top: 40px; 
+} 
+ 
+h2{ 
+    font-family: 'Roboto Slab', serif; 
+    font-size: 50px; 
+} 
+.first-h{ 
+    padding-bottom: 60px; 
+} 
+h4{ 
+    font-family: 'Roboto', sans-serif; 
+    color: #1E4681 ; 
+    font-weight:bold ; 
+} 
+p{ 
+    width: 223px; 
+    font-family: 'Roboto', sans-serif; 
+} 
+ul{ 
+    font-family: 'Roboto', sans-serif; 
+    width:400px; 
+    padding-left: 30px; 
+ 
+} 
+li{ 
+    padding-bottom: 5px; 
+} 
+/* .section-4{ 
+    background-color: #EFEFEF; 
+} 
+.user{ 
+    display: flex; 
+     
+} 
+.information{ 
+    font-family: 'Roboto', sans-serif; 
+ 
+    background: #FFFFFF; 
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25); 
+    border-radius: 30px; 
+    width: 800px; 
+} 
+h3{ 
+    font-family: 'Roboto Slab', serif; 
+ 
+} */
