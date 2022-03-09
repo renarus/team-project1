@@ -1,3 +1,105 @@
-h2{
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Slab:wght@700&family=Roboto:wght@100;300;400;500;700;900&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Slab:wght@700&family=Roboto:wght@100;300;400;500;700;900&display=swap'); 
+ 
+*{ 
+    padding: 0; 
+} 
+
+body{ 
+    width: 1280px; 
+} 
+.section-2{ 
+    padding-left: 100px; 
+} 
+.about{ 
+    display: flex; 
+    justify-content: space-between; 
+    width: 75%; 
+    padding-bottom: 150px; 
+    padding-top: 40px; 
+} 
+ 
+h2{ 
+    font-family: 'Roboto Slab', serif; 
+    font-size: 50px; 
+} 
+.first-h{ 
+    padding-bottom: 60px; 
+} 
+h4{ 
+    font-family: 'Roboto', sans-serif; 
+    color: #1E4681 ; 
+    font-weight:bold ; 
+} 
+p{ 
+    width: 223px; 
+    font-family: 'Roboto', sans-serif; 
+} 
+ul{ 
+    font-family: 'Roboto', sans-serif; 
+    width:400px; 
+    padding-left: 30px; 
+ 
+} 
+li{ 
+    padding-bottom: 5px; 
+} 
+
+@media screen and (max-width:991px) and (min-width:320px) {
+    .about{
+        flex-direction: column;
+    }
+    h2{
+        font-size: 40px;
+        padding-top: 50px;
+    }
+    .section-2{
+        width: 990;
+    }
+    p{
+        font-size: 20px;
+        width: 50%;
+    }
+    h4{
+        font-size: 27px;
+    }
+    .list{
+        padding-bottom: 60px;
+        font-size: 20px;
+    }
+    ul{
+        width: 60%;
+    }
+
+}
+
+@media screen and (max-width:1279px) and (min-width:992px) {
+    .about{
+    display: flex; 
+    justify-content: space-between; 
+    width: 90%; 
+   
+    }
+    h2{
+        font-size: 37px;
+        padding-top: 50px;
+    }
+    .section-2{
+        width: 1279;
+    }
+    p{
+        font-size: 17px;
+        width: 80%;
+    }
+    h4{
+        font-size: 21px;
+    }
+    .list{
+        padding-bottom: 60px;
+        font-size: 19px;
+    }
+    ul{
+        width: 50%;
+    
+    }
 }
