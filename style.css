@@ -89,30 +89,33 @@ li{
     .about{
     display: flex; 
     justify-content: space-between; 
-    width: 80%; 
+    width: 66%; 
+    padding-bottom: 80px; 
     }
     
     h2{
-        font-size: 26px;
+        font-size: 25px;
         padding-top: 50px;
+    }
+    .text1{
+        font-size: 27px;
     }
     .section-2{
         width: 1279;
     }
     p{
-        font-size: 12px;
+        font-size: 11px;
         width: 60%;
     }
     h4{
-        font-size: 16px;
+        font-size: 12px;
     }
     .list{
         padding-bottom: 60px;
-        font-size: 15px;
+        font-size: 12px;
     }
     ul{
-        width: 45%;
-       
-    
+        width: 40%;
     }
+    
 }
