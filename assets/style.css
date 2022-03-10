@@ -204,7 +204,7 @@ font-weight: bold;
     }
     .footer{
         color: white;
-        height: 360px;
+        height: fit-content;
     background-color: black;
     }
     .footer-section{
@@ -214,17 +214,8 @@ font-weight: bold;
         width: 100%;
        
     }
-    .left-footer{
-        width: 67%;
-        padding: 3%;
-        padding-left: 10%;
-        padding-top: 40px;
-        display: flex;
-        justify-content: space-around;
-        flex-direction: column;
-    }
-    .logo-footer{
-     width: 80px;  
+        .logo-footer{
+     width: 100px;  
      padding: 20px;  
     }
     .social-media{
@@ -239,27 +230,43 @@ font-weight: bold;
     }
     .copyright{
         margin-left: 4px;
-        padding-top: 4%; 
         font-weight: 400;
         font-size: 14px;
-        margin-top: -30px;
         width: 67%;
+        padding-bottom: 10px;
     }
+
     .right-footer{  
-        padding-top: 40px; 
-        font-weight: 400;
+        width: 150px;
+        padding: 3%;
+        padding-left: 20%;
+        padding-top: 40px;
         font-size: 14px;
+        display: flex;
+        flex-direction: column;
+      }
+      .left-footer{
+        width: 67%;
+        padding: 3%;
+        padding-left: 10%;
+        padding-top: 40px;
         display: flex;
         justify-content: space-around;
         flex-direction: column;
-        width: 67%;
-        margin-left: 42px;
-      }
-    
+    }
       .phone-icon{
         width: 20px;
         height: 20px;  
       }
-    
+      .phone{
+        width: 100%;
+        display: flex;
+        padding-bottom: 30px;
+      }
+      .mail{
+        width: 100%;
+        display: flex;
+      
+      }
    
     }
