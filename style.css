@@ -53,15 +53,15 @@ p{
     .section-4{
     }
     h2{
-        font-size: 55px;
-        width: 40%;
+        font-size: 30px;
+        width: 25%;
     }
     .information{
-        width: 65%;
-        height: 550px;
+        width: 55%;
+        height: 400px;
     }
     p{
-        font-size: 27px;
+        font-size: 19px;
         width: 90%;
         padding-left: 25px;
         padding-top: 50px;
@@ -71,9 +71,15 @@ p{
     }
     .image{
         padding-left: 20px;
+        
     }
-    .user{
-       
+    .first-img{
+       width: 150px;
+       height: 150px;
+    }
+    img{
+        width:20px;
+        height: 20px;
     }
 } 
 @media screen and (max-width:1279px) and (min-width:992px) {
