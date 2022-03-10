@@ -243,7 +243,7 @@ font-weight: bold;
         font-weight: 400;
         font-size: 14px;
         margin-top: -30px;
-        width: 350px;
+        width: 67%;
     }
     .right-footer{  
         padding-top: 40px; 
@@ -252,7 +252,7 @@ font-weight: bold;
         display: flex;
         justify-content: space-around;
         flex-direction: column;
-       width: 67%;
+        width: 67%;
         margin-left: 42px;
       }
     
