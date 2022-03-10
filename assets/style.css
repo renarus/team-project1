@@ -32,13 +32,12 @@ font-weight: bold;
 .blue-text1-title, .blue-text2-title{
     margin-bottom: 10px;
     font-size: 24px;
-    width: 50%;
 }
 .blue-text1-title{
-    width: 100%;
+    width: 300px;
 }
 .blue-text2-title{
-    width: 100%;
+    width: 300px;
 }
 .blue-text1{
     padding-right: 30px;
@@ -155,10 +154,9 @@ font-weight: bold;
         background-color: #9DC9C8;
         height: auto;
         padding-top:60px ;
-        padding-left: 40px;
+        padding-left: 50px;
         padding-bottom: 100px;
     }
-    
     .blue-title{
     margin-top: 10px;
     font-size: 26px;
@@ -168,7 +166,7 @@ font-weight: bold;
     .blue-text{
         display: flex;
         justify-content: space-between;
-        width:75%; 
+        width:50%; 
     }
     .ctoimost{
         font-size: 16px;
@@ -176,7 +174,7 @@ font-weight: bold;
     }
     .rubl{
         padding-bottom: 50px;
-        font-size: 30px; 
+        font-size: 50px; 
     }
 
     .blue-text1-title, .blue-text2-title{
@@ -186,55 +184,55 @@ font-weight: bold;
     .blue-text1-title{
         width: 200px;
     }
+    .blue-text2-title{
+        width: 130px;
+    }
     .blue-text1-text{
-        width: 100%;
-        /* width: 100%; */
+        width: 100px;
     }
     .blue-text2-text{
-        width: 100%;
+        width: 100px;
     }
     .blue-text1{
         padding-right: 30px;
-        font-size: 12px;
-        width: 50%; 
+        font-size: 8px;
+        width: 100px; 
     }
     .blue-text2{
         padding-right: 30px;
-        font-size: 12px;
-        width: 50%; 
+        font-size: 8px;
+        width: 100px; 
     }
     .footer{
         color: white;
         height: fit-content;
-    background-color: black;
+        background-color: black;
     }
     .footer-section{
         display: flex;
         justify-content: space-around;
         flex-direction: column;
-        width: 100%;
-       
+        width: 100%; 
     }
- .logo-footer{
+    .logo-footer{
      width: 100px;  
-     padding: 20px;  
     }
     .social-media{
         display: flex;
         justify-content: space-around;
         width: 150px;
-        margin-left: 25px;
+        margin-left: 5px;
     }
     .social-media-icons{
         width: 20px;
         height: 20px;
     }
     .copyright{
-        margin-left: 18px;
         font-weight: 400;
         font-size: 14px;
         width: 67%;
         padding-bottom: 10px;
+        padding-left: 50px;
     }
 
     .right-footer{  
@@ -243,19 +241,17 @@ font-weight: bold;
         padding-top: 40px;
         font-size: 14px; */
         width:150px;
-        padding: 3%;
-        padding-left: 10%;
+        padding-left: 30px;
         padding-top: 40px;
         display: flex;
         flex-direction: column;
       }
       .left-footer{
         width:150px;
-        padding: 3%;
-        padding-left: 10%;
+       padding-left: 50px;
         padding-top: 40px;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         flex-direction: column;
     }
       .phone-icon{
