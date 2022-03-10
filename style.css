@@ -19,7 +19,7 @@ body{
     padding-top: 40px; 
 } 
  
-h2{ 
+h2,.text1{ 
     font-family: 'Roboto Slab', serif; 
     font-size: 50px; 
 } 
@@ -47,29 +47,41 @@ li{
 
 @media screen and (max-width:991px) and (min-width:320px) {
     .about{
-        flex-direction: column;
+       display: block; 
+      margin-top: -40px;
+      padding-bottom: 20px;
     }
-    h2{
-        font-size: 40px;
-        padding-top: 50px;
+    .section-2{
+        width: 991px;
+    }
+    .text1{
+        font-size: 21px;
+        margin-left: -2px;
+       
     }
     .section-2{
         width: 990;
     }
     p{
-        font-size: 20px;
-        width: 50%;
+        font-size: 13px;
+        width: 40%;
     }
     h4{
-        font-size: 27px;
+        font-size: 15px;
     }
     .list{
-        padding-bottom: 60px;
-        font-size: 20px;
+        font-size: 12px;
     }
+    
     ul{
-        width: 60%;
+        width: 40%;
+        margin-left: -9px;
     }
+    h2{
+       font-size: 20px; 
+    }
+   
+     
 
 }
 
@@ -77,29 +89,30 @@ li{
     .about{
     display: flex; 
     justify-content: space-between; 
-    width: 90%; 
-   
+    width: 80%; 
     }
+    
     h2{
-        font-size: 37px;
+        font-size: 26px;
         padding-top: 50px;
     }
     .section-2{
         width: 1279;
     }
     p{
-        font-size: 17px;
-        width: 80%;
+        font-size: 12px;
+        width: 60%;
     }
     h4{
-        font-size: 21px;
+        font-size: 16px;
     }
     .list{
         padding-bottom: 60px;
-        font-size: 19px;
+        font-size: 15px;
     }
     ul{
-        width: 50%;
+        width: 45%;
+       
     
     }
 }
