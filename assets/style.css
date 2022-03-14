@@ -534,8 +534,9 @@
 
     .section1 .texts-img .img-1 {
         display: flex;
-        justify-content: end;
-        width: 270px;
+        justify-content: center;
+        width: 190px;
+       
     }
 
     .section1 .texts-img .img-1 img {
