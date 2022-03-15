@@ -543,7 +543,7 @@ table {
         display: flex;
         justify-content: space-evenly;
         height: 30px;
-        width: 75px;
+        width: 82px;
         align-items: center;
 
     }
@@ -552,7 +552,7 @@ table {
         display: flex;
         justify-content: space-evenly;
         height: 30px;
-        width: 55px;
+        width: 60px;
         align-items: center;
 
     }
@@ -560,7 +560,7 @@ table {
         display: flex;
         justify-content: space-evenly;
         height: 30px;
-        width: 65px;
+        width: 74px;
         align-items: center;
 
     }
@@ -803,7 +803,7 @@ table {
         flex-direction: column;
         height: 550px;
         align-items: center;
-        margin-left: 14px;
+        margin-left: -10px;
     }
 
     .section-3 .boxes .box-1 {
