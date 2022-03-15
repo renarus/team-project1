@@ -60,16 +60,28 @@ table {
 
     }
 
-    header .three-line .globe-text,
-    .clock-text,
-    .calendar-text {
+    header .three-line .globe-text{
         display: flex;
         justify-content: space-between;
-        width: 108px;
+        width: 123px;
         height: 40px;
         align-items: center;
     }
-
+    header .three-line .clock-text{
+        display: flex;
+        justify-content: space-between;
+        width: 98px;
+        height: 40px;
+        height: 40px;
+        align-items: center;
+    }
+    header .three-line .calendar-text{
+        display: flex;
+        justify-content: space-between;
+        width: 113px;
+        height: 40px;
+        align-items: center;
+    }
     header .texts-img {
         display: flex;
         justify-content: space-around;
@@ -88,11 +100,15 @@ table {
     header .title-text h1 {
         font-size: 80px;
         font-family: 'Roboto Slab';
+        margin-top: 30px;
     }
 
     header .title-text p {
         font-size: 20px;
-        width: 370px;
+        width: 420px;
+        margin-top: 30px;
+        font-family: 'Roboto';
+        line-height: 32px;
     }
 
     header .img-noroot img {
@@ -112,9 +128,11 @@ table {
     header .blue-box p {
         font-size: 25px;
         color: white;
-        width: 75%;
+        width: 90%;
         padding-left: 20px;
-        padding-top: 15px;
+        padding-top: 22px;
+        font-family: 'Roboto Slab';
+        line-height: 29px;
     }
 
     header .blue-box .author {
@@ -125,76 +143,95 @@ table {
     }
 
     /* section1 */
+    .section1{
+        margin-top: 124px;
+    }
     .section1 .title1 h1 {
         font-size: 55px;
         margin-left: 80px;
         font-family: 'Roboto Slab';
+        font-weight: 700,bold;
     }
 
     .section1 .texts-img {
         display: flex;
         justify-content: space-around;
-        width: 1200px;
+        width: 1280px;
     }
 
     .section1 .texts-img .text {
-        width: 662px;
+        width: 649px;
     }
 
     .section1 .texts-img .text p {
         font-size: 24px;
-        line-height: 150%;
+        line-height: 38px;
         font-family: 'Roboto';
+        margin-top: 40px;
 
     }
 
     .section1 .boxes {
         display: flex;
-        justify-content: space-evenly;
-        width: 1300px;
+        justify-content: space-between;
+        width: 1280px;
         height: 260px;
         align-items: center;
     }
     .section1 .boxes  .img-2 img{
-        margin-left: 60px;
+        margin-left: 90px;
     }
     .section1 .boxes .total-texts {
         display: flex;
         justify-content: space-around;
         width: 44%;
+        align-items: center;
+       
     }
 
     .section1 .boxes .texts h4 {
         font-size: 24px;
+        display: flex;
+        align-items: center;
+        height: 60px;
     }
 
     .section1 .boxes .texts p {
         width: 130px;
         font-size: 18px;
+        line-height: 24px;
     }
 
     .section1 .boxes-2 {
         display: flex;
         justify-content: space-around;
+        width: 1280px;
     }
 
     .section1 .format h1 {
         font-size: 55px;
         margin-left: 83px;
-
+        font-family: 'Roboto Slab';
+        font-weight: 700,bold;
+        line-height: 124px;
     }
 
     .section1 .boxes-2 .texts-2 {
-        width: 18%;
+        width:250px;
     }
 
     .section1 .boxes-2 .texts-2 h4 {
         font-size: 24px;
         color: #1E4681;
+        line-height: 63px;
+        font-family: 'Roboto';
     }
 
     .section1 .boxes-2 .texts-2 p {
         font-size: 18px;
+        font-family: 'Roboto';
+        line-height: 23px;
+       
     }
 
     /* section-2 */
@@ -206,14 +243,16 @@ table {
         font-size: 55px;
         margin-left: 83px;
         font-family: 'Roboto Slab';
+        line-height: 130px;
     }
 
     .section-2 nav {
         margin-left: 72px;
+       
     }
 
     .section-2 nav ul {
-        line-height: 36px;
+        line-height: 50px;
         font-size: 24px;
         width: 662.88px;
         font-family: 'Roboto Slab';
@@ -226,6 +265,8 @@ table {
         line-height: 55.76px;
         margin-top: 121px;
         height: 130px;
+        font-family: 'Roboto Slab';
+        font-weight: 700;
     }
 
     .section-3 .boxes {
@@ -252,21 +293,23 @@ table {
         font-size: 30px;
         line-height: 39px;
         padding-left: 20px;
-        margin-top: 13px;
+        margin-top: 18px;
+        font-weight: bold;
     }
 
     .section-3 .boxes .box-1 p {
         font-size: 25px;
-        line-height: 32.5px;
+        line-height: 25.5px;
         padding-left: 24px;
-        margin-top: -30px;
+        margin-top: 16px;
         height: 90px;
         display: flex;
         align-items: center;
+        font-family: 'Roboto';
     }
 
     .section-3 .boxes .box-1 .last {
-        margin-top: -54px;
+        margin-top: -20px;
         margin-left: -4px;
     }
 
@@ -291,9 +334,11 @@ table {
 
     .section-4 h1 {
         font-size: 55px;
-        line-height: 55.76px;
+        line-height: 99.76px;
         margin-left: 83px;
         padding-top: 130px;
+        font-family: "Roboto Slab";
+        font-weight: 700;
     }
 
     .section-4 .about {
@@ -311,19 +356,33 @@ table {
 
     .section-4 .about p {
         font-size: 20px;
-        width: 80%;
+        width: 85%;
+        line-height: 29px;
+        font-family: "Roboto";
     }
 
     .section-4 .about .author {
         display: flex;
-        width: 85%;
-    }
+        width: 92%;
+        align-items: center;
 
+    }
+    .section-4 .about .author  .img-auth img{
+        width: 120px;
+        height: 110px;
+    }
     .section-4 .about .author .name-auth h4 {
-        font-size: 30px;
-        line-height: 30px;
+        font-size: 27px;
+        line-height: 60px;
+        font-weight: bold;
+        font-family: "Roboto";
     }
-
+    .section-4 .about .author .name-auth img{
+        background-color: #1E4681;
+        border-radius:3px;
+        width: 20px;
+        height: 20px;
+    }
     /* footer */
     .footer {
         background-color: #9DC9C8;
@@ -333,7 +392,7 @@ table {
 
     .footer .first-box h1 {
         font-size: 55px;
-        line-height: 55.76px;
+        line-height: 76.76px;
         margin-left: 83px;
         padding-top: 100px;
 
@@ -349,7 +408,7 @@ table {
         font-style: normal;
         font-weight: 400;
         font-size: 80px;
-        line-height: 15.38%;
+        line-height: 25.38px;
         margin-left: 83px;
     }
 
@@ -371,13 +430,21 @@ table {
 
 
     }
-
+    .footer .first-box h2{
+        line-height: 191px;
+    }
+    .footer .first-box .texts .text-1{
+        line-height: 24px;
+        
+    }
     .footer .first-box .texts .text-1 .sec-2 {
         width: 282.6px;
+        padding-top: 20px;
     }
 
     .footer .first-box .texts .text-1 .sec-1 {
         width: 283.6px;
+        padding-top: 20px;
     }
 
     .footer .sec-box {
@@ -405,6 +472,7 @@ table {
     .footer .sec-box .mail-text p {
         color: white;
         font-size: 25px;
+      
 
     }
     .footer .sec-box .mail-text{
@@ -471,9 +539,24 @@ table {
 
     }
 
-    header .three-line .globe-text,
-    .clock-text,
-    .calendar-text {
+    header .three-line .globe-text {
+        display: flex;
+        justify-content: space-evenly;
+        height: 30px;
+        width: 75px;
+        align-items: center;
+
+    }
+
+ header .three-line  .clock-text{
+        display: flex;
+        justify-content: space-evenly;
+        height: 30px;
+        width: 55px;
+        align-items: center;
+
+    }
+    header .three-line  .calendar-text{
         display: flex;
         justify-content: space-evenly;
         height: 30px;
@@ -481,7 +564,6 @@ table {
         align-items: center;
 
     }
-
     header .three-line .globe-text,
     .clock-text,
     .calendar-text p {
@@ -518,6 +600,8 @@ table {
         font-size: 11px;
         width: 200px;
         margin-left: 3px;
+        margin-top: 20px;
+        line-height: 15px;
     }
 
     header .img-noroot {
@@ -532,7 +616,7 @@ table {
     }
 
     header .blue-box {
-        width: 180px;
+        width: 198px;
         height: 86px;
         background-color: #1E4681;
         border-radius: 3px;
@@ -543,10 +627,12 @@ table {
     header .blue-box p {
         font-size: 11px;
         color: white;
-        width: 165px;
+        width: 184px;
         padding-left: 10px;
         padding-top: 10px;
         line-height: 14.3px;
+        font-family: 'Roboto';
+        
     }
 
     header .blue-box .author {
@@ -554,7 +640,8 @@ table {
         justify-content: end;
         width: 160px;
         font-size: 10px;
-        margin-top: -18px;
+        margin-top: -16px;
+        font-family: "Roboto";
     }
 
 
@@ -565,7 +652,9 @@ table {
         font-size: 26px;
         margin-left: 30px;
         font-family: 'Roboto Slab';
-        margin-top: 90px;
+        margin-top: 80px;
+        line-height: 65px;
+        font-weight: bold;
     }
 
     .section1 .texts-img {
@@ -577,7 +666,7 @@ table {
     .section1 .texts-img .img-1 {
         display: flex;
         justify-content: center;
-        width: 190px;
+       
        
     }
 
@@ -585,7 +674,6 @@ table {
         width: 146px;
         height: 146px;
     }
-
     .section1 .texts-img .text p {
         font-size: 10px;
         line-height: 18px;
@@ -622,10 +710,16 @@ table {
 
     .section1 .boxes .texts h4 {
         font-size: 12px;
+        font-weight: bold;
+        line-height: 30px;
+        font-family: 'Roboto';
     }
 
     .section1 .boxes .texts p {
         font-size: 10px;
+        line-height: 12px;
+        font-family: 'Roboto';
+        width: 85px;
     }
 
     .section1 .boxes-2 {
@@ -634,12 +728,15 @@ table {
         flex-direction: column;
         margin-left: 34px;
         width: 250px;
+        height: 270px;
     }
 
     .section1 .format h1 {
         font-size: 26px;
         margin-left: 34px;
         font-family: 'Roboto Slab';
+        font-weight: bold;
+        line-height: 60px;
 
     }
 
@@ -648,20 +745,24 @@ table {
     }
 
     .section1 .boxes-2 .texts-2 h4 {
-        font-size: 12px;
+        font-size: 13px;
         color: #1E4681;
+        line-height: 26px;
+        font-weight: bold;
+        font-family: 'Roboto';
     }
 
     .section1 .boxes-2 .texts-2 p {
-        font-size: 10px;
-        width: 175.9px;
+        font-size: 11px;
+        width: 186.9px;
         font-family: 'Roboto';
         font-weight: 400;
+        line-height: 14px;
     }
 
     /* section-2 */
     .section-2 {
-        margin-top: 140px;
+        margin-top: 70px;
     }
 
     .section-2 h1 {
@@ -669,12 +770,19 @@ table {
         margin-left: 34px;
         font-family: 'Roboto Slab';
         font-weight: 700;
+        line-height: 60px;
     }
 
     .section-2 nav ul {
-        line-height: 18px;
-        font-size: 12px;
-        width: 260px;
+        line-height: 20px;
+        font-size: 11px;
+        width: 275px;
+        font-family: 'Roboto';
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 38px;
+        list-style:disc;
     }
 
     /* section-3 */
@@ -686,7 +794,7 @@ table {
         height: 100px;
         width: 250px;
         font-family: "Roboto Slab";
-        font-weight: 700, bold;
+        font-weight: 700;
     }
 
     .section-3 .boxes {
@@ -699,7 +807,7 @@ table {
     }
 
     .section-3 .boxes .box-1 {
-        box-shadow: 0 0 10px;
+        box-shadow: 0 0 5px;
         border-radius: 30px;
         width: 195px;
         height: 153px;
@@ -718,7 +826,7 @@ table {
         padding-left: 20px;
         margin-top: 6px;
         font-family: "Roboto Slab";
-        font-weight: 700, bold;
+        font-weight: 700;
 
     }
 
@@ -726,14 +834,15 @@ table {
         font-size: 12px;
         line-height: 14.5px;
         padding-left: 24px;
-        margin-top: -40px;
+        margin-top: -20px;
         height: 90px;
         display: flex;
         align-items: center;
+        font-family: 'Roboto';
     }
 
     .section-3 .boxes .box-1 .last {
-        margin-top: -50px;
+        margin-top: -32px;
         margin-left: -4px;
     }
 
@@ -742,43 +851,52 @@ table {
     }
 
     /* section-4 */
+    .section-4{
+        margin-top: -170px;
+        position: relative;
+    }
     .section-4 .all {
         background-color: #EFEFEF;
         background-size: cover;
-        height: 350px;
+        height: 360px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
     }
 
 
     .section-4 h1 {
         font-size: 26px;
-        line-height: 26.76px;
+        line-height: 29.76px;
         margin-left: 34px;
         padding-top: 30px;
         font-family: "Roboto Slab";
-        font-weight: 700, bold;
+        font-weight: 700;
         width: 270px;
 
     }
 
     .section-4 .about {
         width: 283px;
-        height: 208px;
-        border-radius: 30px;
+        height: 218px;
+        border-radius: 15px;
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25);
         background-color: #FFFFFF;
-        margin-left: 14px;
+        margin-top: 20px;
 
     }
 
     .section-4 .about p {
         font-size: 9px;
-        font-family: 'Roboto Slab';
-        font-weight: 700, bold;
-        width: 260px;
+        font-family: 'Roboto';
+        font-weight: 400;
+        width: 240px;
+        line-height: 13px;
     }
 
     .section-4 .about .author {
@@ -793,7 +911,7 @@ table {
 
     .section-4 .about .author .name-auth h4 {
         font-size: 14px;
-        line-height: 14px;
+        line-height: 43px;
     }
 
     .section-4 .about .author .name-auth img {
@@ -813,12 +931,12 @@ table {
 
     .footer .first-box h1 {
         font-size: 26px;
-        line-height: 26px;
+        line-height: 30px;
         margin-left: 34px;
-        padding-top: 70px;
-        width: 200px;
+        padding-top: 60px;
+        width: 210px;
         font-family: "Roboto Slab";
-        font-weight: 700, bold;
+        font-weight: 700;
 
 
     }
@@ -826,8 +944,9 @@ table {
     .footer .first-box .p1 {
         font-size: 12px;
         margin-left: 34px;
-        font-family: "Roboto Slab";
-        font-weight: 700, bold;
+        font-family: "Roboto ";
+        font-weight: 400;
+        line-height: 25px;
     }
 
     .footer .first-box h2 {
@@ -835,30 +954,32 @@ table {
         font-style: normal;
         font-weight: 400;
         font-size: 37px;
-        line-height: 15.38px;
+        line-height: 69px;
         margin-left: 34px;
     }
 
     .footer .first-box .texts {
         display: flex;
         justify-content: space-evenly;
-        width: 310px;
+        width: 300px;
         height: 140px;
+        margin-left: 20px;
 
     }
 
     .footer .first-box .texts .text-1 .first-text {
-        font-size: 10px;
-        font-family: 'Roboto';
+        font-size: 12px;
+        font-family:'Roboto';
         font-weight: 400;
+        line-height: 19px;
 
 
     }
 
     .footer .first-box .texts .text-1 .sec-text {
         font-size: 9px;
-        width: 117px;
-
+        width: 129px;
+        font-family:'Roboto';
 
     }
 
@@ -899,6 +1020,7 @@ table {
     .footer .sec-box .mail-text p {
         color: white;
         font-size: 12px;
+        font-family: 'Roboto';
 
     }
 
@@ -945,6 +1067,7 @@ table {
         padding-left: 32px;
         margin-top: -80px;
         position: absolute;
+      
 
 
     }
@@ -959,6 +1082,8 @@ table {
         color: white;
         margin-left: 45px;
         padding-top: -35px;
+        font-family: 'Roboto';
+        line-height: 22px;
 
     }
 }
@@ -989,29 +1114,40 @@ table {
         font-size: 12px;
     }
 
-    header .three-line .globe-text,
-    .clock-text,
-    .calendar-text {
+    header .three-line .globe-text{
+        display: flex;
+        justify-content: space-around;
+        width: 84px;
+        height: 40px;
+        align-items: center;
+    }
+    header .three-line .clock-text{
+        display: flex;
+        justify-content: space-around;
+        width: 66px;
+        height: 40px;
+        align-items: center;
+    }
+    header .three-line .calendar-text{
         display: flex;
         justify-content: space-around;
         width: 78px;
         height: 40px;
         align-items: center;
     }
-
     header .three-line .calendar-text img {
-        width: 13px;
-        height: 13px;
+        width: 14px;
+        height: 14px;
     }
 
     header .three-line .clock-text img {
-        width: 13px;
-        height: 13px;
+        width: 14px;
+        height: 14px;
     }
 
     header .three-line .globe-text img {
-        width: 13px;
-        height: 13px;
+        width: 14px;
+        height: 14px;
     }
 
     header .texts-img {
@@ -1029,19 +1165,26 @@ table {
 
     header .title-text {
         width: 440px;
+        height: 100px;
 
     }
 
     header .title-text h1 {
         font-size: 46px;
         font-family: 'Roboto Slab';
+        line-height: 45px;
+        font-weight: 700;
     }
 
     header .title-text p {
-        font-size: 12px;
-        width: 250px;
+        font-size: 14px;
+        width: 290px;
         margin-left: 7px;
         font-family: 'Roboto';
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        height: 100px;
     }
 
     header .img-noroot img {
@@ -1051,18 +1194,20 @@ table {
     }
 
     header .blue-box {
-        width: 280px;
-        height: 115px;
+        width: 288px;
+        height: 125px;
         background-color: #1E4681;
         border-radius: 5px;
         margin-left: 385px;
+        font-family: 'Roboto';
+        margin-top: 60px;
 
     }
 
     header .blue-box p {
         font-size: 14px;
         color: white;
-        width: 203px;
+        width: 223px;
         padding-left: 20px;
         padding-top: 15px;
         line-height: 18px;
@@ -1074,7 +1219,8 @@ table {
         width: 370px;
         font-size: 12px;
         line-height: 15px;
-        margin-top: -30px;
+        margin-top: -10px;
+        font-family: 'Roboto';
     }
 
     /* section1 */
@@ -1082,6 +1228,8 @@ table {
         font-size: 32px;
         margin-left: 77px;
         font-family: 'Roboto Slab';
+        font-weight: 700;
+        line-height: 100px;
     }
 
     .section1 .texts-img {
@@ -1119,12 +1267,13 @@ table {
     .section1 .boxes img {
         width: 134px;
         height: 117px;
+        margin-left: 30px;
     }
 
     .section1 .boxes .total-texts {
         display: flex;
         justify-content: space-around;
-        width: 270px;
+        width: 320px;
     }
 
     .section1 .boxes .texte {
@@ -1135,15 +1284,21 @@ table {
     }
 
     .section1 .boxes .texts h4 {
-        font-size: 15px;
+        font-size: 17px;
+        font-family: 'Roboto';
+        line-height: 60px;
+        font-weight: 700;
     }
 
     .section1 .boxes .texts p {
-        width: 80px;
-        font-size: 11px;
+        width: 110px;
+        font-size: 13px;
         height: 10px;
+        font-family: 'Roboto';
+        line-height: 15px;
         display: flex;
         align-items: center;
+        line-height: 15px;
     }
 
     .section1 .boxes-2 {
@@ -1155,22 +1310,28 @@ table {
         font-size: 32px;
         margin-left: 79px;
         font-family: 'Roboto Slab';
+        line-height: 100px;
+        font-weight: 700;
 
     }
 
     .section1 .boxes-2 .texts-2 {
-        width: 167.5px;
+        width: 194.7px;
     }
 
     .section1 .boxes-2 .texts-2 h4 {
-        font-size: 15px;
+        font-size: 16px;
         color: #1E4681;
+        font-family: 'Roboto';
+        line-height: 40px;
+        font-weight: 700;
 
     }
 
     .section1 .boxes-2 .texts-2 p {
-        font-size: 11px;
+        font-size: 13px;
         font-family: 'Roboto';
+        line-height: 15px;
     }
 
     /* section-2 */
@@ -1182,28 +1343,36 @@ table {
         font-size: 32px;
         margin-left: 86px;
         font-family: 'Roboto Slab';
+        font-weight: 700;
+        line-height: 78px;
 
 
     }
 
     .section-2 nav {
-        margin-left: 72px;
+        margin-left: 98px;
+
     }
 
     .section-2 nav ul {
-        line-height: 21px;
-        font-size: 14px;
-        width: 45%;
+        line-height: 25px;
+        font-size: 17px;
+        width: 459px;
+        list-style: disc;
+        font-family: 'Roboto';
+        font-weight: 400;
+       
     }
 
     /* section-3 */
     .section-3 h1 {
         font-size: 32px;
         margin-left: 92px;
-        line-height: 35.76px;
+        line-height: 38.76px;
         margin-top: 121px;
         height: 80px;
         font-family: 'Roboto Slab';
+        font-weight: 700;
 
     }
 
@@ -1229,16 +1398,17 @@ table {
 
     .section-3 .boxes .box-1 h4 {
         font-size: 17px;
-        line-height: 22px;
+        line-height: 20px;
         padding-left: 20px;
         font-family: 'Roboto';
+        font-weight: 700;
     }
 
     .section-3 .boxes .box-1 p {
         font-size: 14px;
         line-height: 21.5px;
         padding-left: 24px;
-        margin-top: -30px;
+        margin-top: -8px;
         height: 90px;
         display: flex;
         align-items: center;
@@ -1246,7 +1416,7 @@ table {
     }
 
     .section-3 .boxes .box-1 .last {
-        margin-top: -52px;
+        margin-top: -22px;
         margin-left: -4px;
     }
 
@@ -1259,7 +1429,7 @@ table {
     /* section-4 */
     .section-4 {
         background-color: #EFEFEF;
-        height: 800px;
+        height: 600px;
 
     }
 
@@ -1269,25 +1439,33 @@ table {
     }
 
     .section-4 h1 {
-        font-size: 32px;
-        line-height: 55.76px;
+        font-size: 34px;
+        line-height: 89.76px;
         margin-left: 92px;
-        padding-top: 130px;
+        padding-top: 100px;
+        font-family: "Roboto Slab";
+        font-weight: 700;
     }
 
     .section-4 .about {
-        width: 458px;
-        height: 261px;
-        border-radius: 30px;
+        width: 484px;
+        height: 281px;
+        border-radius: 10px;
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
         box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
         background-color: #FFFFFF;
-        margin-left: 83px;
+        margin-left: 86px;
     }
-
+    .section-4 .name-auth{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        height: 100px;
+        justify-content: center;
+    }
     .section-4 .name-auth img {
         background-color: #1E4681;
         border-radius: 3px;
@@ -1297,18 +1475,21 @@ table {
 
     .section-4 .about p {
         font-size: 14px;
-        line-height: 18px;
-        width: 400px;
+        line-height: 20px;
+        width: 450px;
+        font-family: "Roboto";
     }
 
     .section-4 .about .author {
         display: flex;
-        width: 85%;
+        width: 87%;
+ 
     }
 
     .section-4 .about .author .name-auth h4 {
         font-size: 17px;
-        line-height: 17px;
+        line-height: 40px;
+        font-family: "Roboto";
     }
 
     /* footer */
@@ -1324,12 +1505,14 @@ table {
         margin-left: 83px;
         padding-top: 100px;
         font-family: 'Roboto Slab';
+        font-weight: 700;
     }
 
     .footer .first-box .p1 {
         font-size: 14px;
         margin-left: 83px;
         font-family: 'Roboto';
+        line-height: 60px;
     }
 
     .footer .first-box h2 {
@@ -1337,36 +1520,38 @@ table {
         font-style: normal;
         font-weight: 400;
         font-size: 46px;
-        line-height: 15.38%;
+        line-height: 60px;
         margin-left: 83px;
     }
 
     .footer .first-box .texts {
         display: flex;
         justify-content: space-evenly;
-        width: 550px;
+        width: 643px;
         height: 150px;
 
     }
 
     .footer .first-box .texts .text-1 .first-text {
-        font-size: 14px;
-
+        font-size: 15px;
+        font-family: 'Roboto';
+        line-height: 40px;
+        font-weight: 400;
     }
 
     .footer .first-box .texts .text-1 .sec-text {
-        font-size: 10px;
-
-
+        font-size: 12px;
+        font-family: 'Roboto';
+        line-height: 13px;
     }
 
     .footer .first-box .texts .text-1 .sec-2 {
-        width: 146px;
-        line-height: 10px;
+        width: 199px;
+        line-height: 13px;
     }
 
     .footer .first-box .texts .text-1 .sec-1 {
-        width: 155px;
+        width: 198px;
     }
 
     .footer .sec-box {
@@ -1395,6 +1580,7 @@ table {
     .footer .sec-box .mail-text p {
         color: white;
         font-size: 14px;
+        font-family: 'Roboto';
 
     }
 
@@ -1415,8 +1601,8 @@ table {
     }
 
     .footer .sec-box .mail-text img {
-        width: 15px;
-        height: 11px;
+        width: 22px;
+        height: 15px;
     }
 
     .footer .sec-box .icons {
@@ -1428,15 +1614,17 @@ table {
     }
 
     .footer .sec-box .icons img {
-        width: 19px;
-        height: 19px;
+        width: 22px;
+        height: 22px;
     }
 
     .footer .sec-box .copyright {
-        font-size: 10px;
+        font-size: 12px;
         color: white;
         margin-left: 77px;
         padding-top: 40px;
+        font-family: 'Roboto';
+        line-height: 40px;
 
     }
 }
