@@ -279,7 +279,7 @@ table {
 
     .section-3 .boxes .box-1 {
         box-shadow: 0 0 10px;
-        border-radius: 30px;
+        border-radius: 27px;
         width: 350px;
         height: 320px;
 
@@ -518,7 +518,7 @@ table {
     }
 }
 
-@media screen and (min-width:320px) and (max-width:991px) {
+@media screen and (max-width:991px) {
    
     header .logo {
         margin-left: 30px;
@@ -536,9 +536,10 @@ table {
 
     header .three-line {
         display: flex;
-        justify-content: space-evenly;
-        width:88%;
+        /* justify-content: space-evenly; */
+        /* width:88%; */
         margin-left: 25px;
+     
 
     }
 
@@ -546,42 +547,15 @@ table {
         display: flex;
         /* justify-content: space-evenly; */
         height: 30px;
-        width: 32%;
+        /* width: 32%; */
         align-items: center;
+        margin-right: 2%;
 
     }
-
- header .three-line  .clock-text{
-        display: flex;
-        /* justify-content: space-evenly; */
-        height: 30px;
-        width: 32%;
-        align-items: center;
-
-    }
-    header .three-line  .calendar-text{
-        display: flex;
-        /* justify-content: space-evenly; */
-        height: 30px;
-        width: 33%;
-        align-items: center;
-       
-
-    }
-    header .three-line 
-    .calendar-text p {
-        font-size: 12px;
-        margin-left: 6px;
-        width: 140px;
-    }
+   
     header .three-line 
     .globe-text p{
         margin-left: 3px;
-        font-size: 12px;
-    }
-    header .three-line 
-    .clock-text p{
-        margin-left: 6px;
         font-size: 12px;
     }
     header .texts-img {
@@ -613,11 +587,11 @@ table {
     }
 
     header .title-text p {
-        font-size: 11px;
-        width: 200px;
+        font-size: 13px;
+        width: 245px;
         margin-left: 3px;
         margin-top: 20px;
-        line-height: 15px;
+        line-height: 17px;
     }
 
     header .img-noroot {
@@ -894,19 +868,21 @@ table {
         height: 360px;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        /* align-items: center; */
         
     }
 
-
+    .section-4  .text-1 h1{
+        width:74%;
+    }
     .section-4 h1 {
         font-size: 26px;
         line-height: 29.76px;
-        margin-left: 34px;
+        margin-left: 40px;
         padding-top: 30px;
         font-family: "Roboto Slab";
         font-weight: 700;
-        width: 270px;
+        
 
     }
 
@@ -921,6 +897,7 @@ table {
         box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25);
         background-color: #FFFFFF;
         margin-top: 20px;
+        margin: auto;
 
     }
 
@@ -1141,8 +1118,9 @@ table {
 
     header .three-line {
         display: flex;
-        justify-content: space-evenly;
-        width: 550px;
+        /* justify-content: space-evenly; */
+        width: 440px;
+      justify-content: center;
 
     }
 
@@ -1156,30 +1134,10 @@ table {
         width: 84px;
         height: 40px;
         align-items: center;
+        margin-right: 2%;
     }
-    header .three-line .clock-text{
-        display: flex;
-        justify-content: space-around;
-        width: 66px;
-        height: 40px;
-        align-items: center;
-    }
-    header .three-line .calendar-text{
-        display: flex;
-        justify-content: space-around;
-        width: 78px;
-        height: 40px;
-        align-items: center;
-    }
-    header .three-line .calendar-text img {
-        width: 14px;
-        height: 14px;
-    }
+ 
 
-    header .three-line .clock-text img {
-        width: 14px;
-        height: 14px;
-    }
 
     header .three-line .globe-text img {
         width: 14px;
