@@ -28,9 +28,9 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
+/* ol, ul {
 	list-style: none;
-}
+} */
 blockquote, q {
 	quotes: none;
 }
@@ -44,8 +44,9 @@ table {
 	border-spacing: 0;
 }
 @media screen and (min-width:1280px) {
-
+    
     /* header */
+  
     header .logo {
         margin-left: 79px;
         display: flex;
@@ -518,7 +519,7 @@ table {
 }
 
 @media screen and (min-width:320px) and (max-width:991px) {
-
+   
     header .logo {
         margin-left: 30px;
         display: flex;
@@ -535,41 +536,53 @@ table {
     header .three-line {
         display: flex;
         justify-content: space-evenly;
-        width: 300px;
+        width:88%;
+        margin-left: 25px;
 
     }
 
     header .three-line .globe-text {
         display: flex;
-        justify-content: space-evenly;
+        /* justify-content: space-evenly; */
         height: 30px;
-        width: 82px;
+        width: 32%;
         align-items: center;
 
     }
 
  header .three-line  .clock-text{
         display: flex;
-        justify-content: space-evenly;
+        /* justify-content: space-evenly; */
         height: 30px;
-        width: 60px;
+        width: 32%;
         align-items: center;
 
     }
     header .three-line  .calendar-text{
         display: flex;
-        justify-content: space-evenly;
+        /* justify-content: space-evenly; */
         height: 30px;
-        width: 74px;
+        width: 33%;
         align-items: center;
+       
 
     }
-    header .three-line .globe-text,
-    .clock-text,
+    header .three-line 
     .calendar-text p {
-        font-size: 10px;
+        font-size: 12px;
+        margin-left: 6px;
+        width: 140px;
     }
-
+    header .three-line 
+    .globe-text p{
+        margin-left: 3px;
+        font-size: 12px;
+    }
+    header .three-line 
+    .clock-text p{
+        margin-left: 6px;
+        font-size: 12px;
+    }
     header .texts-img {
         display: flex;
         justify-content: space-around;
@@ -579,13 +592,13 @@ table {
     }
 
     header .three-line img {
-        width: 11px;
-        height: 10px;
+        width: 13px;
+        height: 13px;
     }
 
     header .title-text {
-        width: 270px;
         margin-left: -30px;
+      
     }
 
     header .title-text h1 {
@@ -593,6 +606,8 @@ table {
         font-family: 'Roboto Slab';
         font-weight: 700;
         font-style: normal;
+        line-height: 45px;
+      
 
     }
 
@@ -606,22 +621,26 @@ table {
 
     header .img-noroot {
         display: flex;
-        justify-content: flex-end;
-        width: 240px;
+        justify-content: end;
+        width: 68%;
+        margin-left: 30px;
     }
 
     header .img-noroot img {
         width: 141px;
         height: 165px;
     }
-
+    header .blue{
+        margin-left: -74px;
+        margin-top: 10px;
+    }
     header .blue-box {
         width: 198px;
         height: 86px;
         background-color: #1E4681;
         border-radius: 3px;
-        margin-left: 27px;
         margin-top: 15px;
+        margin: auto;
 
     }
 
@@ -648,7 +667,9 @@ table {
 
 
     /* section1 */
-
+    /* .section1 .title1{
+        margin: auto;
+    } */
     .section1 .title1 h1 {
         font-size: 26px;
         margin-left: 30px;
@@ -656,6 +677,7 @@ table {
         margin-top: 80px;
         line-height: 65px;
         font-weight: bold;
+
     }
 
     .section1 .texts-img {
@@ -666,9 +688,7 @@ table {
 
     .section1 .texts-img .img-1 {
         display: flex;
-        justify-content: center;
-       
-       
+        justify-content: center;   
     }
 
     .section1 .texts-img .img-1 img {
@@ -676,10 +696,10 @@ table {
         height: 146px;
     }
     .section1 .texts-img .text p {
-        font-size: 10px;
+        font-size: 14px;
         line-height: 18px;
         font-family: 'Roboto';
-        width: 267px;
+        width:80%;
         margin-left: 30px;
 
     }
@@ -688,7 +708,7 @@ table {
         display: flex;
         justify-content: space-around;
         height: 250px;
-        width: 270px;
+        width: 73%;
         align-items: center;
         flex-direction: column;
     }
@@ -696,7 +716,7 @@ table {
     .section1 .boxes .total-texts {
         display: flex;
         justify-content: space-around;
-        width: 200px;
+        width: 75%;
 
 
     }
@@ -715,7 +735,9 @@ table {
         line-height: 30px;
         font-family: 'Roboto';
     }
-
+    .section1 .boxes .texts{
+        margin: auto;
+    }
     .section1 .boxes .texts p {
         font-size: 10px;
         line-height: 12px;
@@ -727,8 +749,8 @@ table {
         display: flex;
         justify-content: space-around;
         flex-direction: column;
-        margin-left: 34px;
-        width: 250px;
+        margin-left: 24px;
+        /* width:97%; */
         height: 270px;
     }
 
@@ -745,48 +767,56 @@ table {
         display: none;
     }
 
-    .section1 .boxes-2 .texts-2 h4 {
-        font-size: 13px;
+    .section1 .boxes-2 .texts-2  h4 {
+        font-size: 12px;
         color: #1E4681;
         line-height: 26px;
         font-weight: bold;
         font-family: 'Roboto';
+        margin-left: 10px;
+      
     }
-
     .section1 .boxes-2 .texts-2 p {
-        font-size: 11px;
-        width: 186.9px;
+        font-size: 12px;
         font-family: 'Roboto';
         font-weight: 400;
-        line-height: 14px;
+        line-height: 16px;
+        width: 66%;
+        margin-left: 10px;
+       
     }
-
+   
     /* section-2 */
     .section-2 {
         margin-top: 70px;
+    
     }
 
     .section-2 h1 {
         font-size: 26px;
-        margin-left: 34px;
+        /* margin-left: 34px; */
         font-family: 'Roboto Slab';
         font-weight: 700;
         line-height: 60px;
+        margin-left: 30px;
     }
 
     .section-2 nav ul {
         line-height: 20px;
         font-size: 11px;
-        width: 275px;
         font-family: 'Roboto';
         display: flex;
         justify-content: center;
         flex-direction: column;
-        margin-left: 38px;
         list-style:disc;
+        margin-left: 30px;
     }
 
     /* section-3 */
+    .section-3 {
+        margin-top: 70px;
+    
+    }
     .section-3 h1 {
         font-size: 26px;
         margin-left: 34px;
@@ -809,7 +839,7 @@ table {
 
     .section-3 .boxes .box-1 {
         box-shadow: 0 0 5px;
-        border-radius: 30px;
+        border-radius: 14px;
         width: 195px;
         height: 153px;
         margin-top: -95px;
@@ -855,6 +885,7 @@ table {
     .section-4{
         margin-top: -170px;
         position: relative;
+        background-color: red;
     }
     .section-4 .all {
         background-color: #EFEFEF;
@@ -933,21 +964,22 @@ table {
     .footer .first-box h1 {
         font-size: 26px;
         line-height: 30px;
-        margin-left: 34px;
+        /* margin-left: 34px; */
         padding-top: 60px;
-        width: 210px;
+        width: 80%;
         font-family: "Roboto Slab";
         font-weight: 700;
-
+       margin: auto;
 
     }
 
     .footer .first-box .p1 {
         font-size: 12px;
-        margin-left: 34px;
+        margin-left: 10%;
         font-family: "Roboto ";
         font-weight: 400;
-        line-height: 25px;
+        line-height: 27px;
+        
     }
 
     .footer .first-box h2 {
@@ -956,16 +988,16 @@ table {
         font-weight: 400;
         font-size: 37px;
         line-height: 69px;
-        margin-left: 34px;
+        width:57%;
+        margin-left: 10%;
     }
 
     .footer .first-box .texts {
         display: flex;
-        justify-content: space-evenly;
-        width: 300px;
+        justify-content: space-between;
+        width:62%;
         height: 140px;
-        margin-left: 20px;
-
+        margin-left: 10%;
     }
 
     .footer .first-box .texts .text-1 .first-text {
@@ -973,6 +1005,7 @@ table {
         font-family:'Roboto';
         font-weight: 400;
         line-height: 19px;
+        /* margin-left: -25px; */
 
 
     }
@@ -981,6 +1014,8 @@ table {
         font-size: 9px;
         width: 129px;
         font-family:'Roboto';
+        /* margin-left: -25px; */
+        margin-top: 5px;
 
     }
 
@@ -990,7 +1025,6 @@ table {
         flex-direction: column;
         height: 300px;
         justify-content: center;
-
 
     }
 
